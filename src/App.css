@@ -1,0 +1,161 @@
+.todo-container{
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+  
+  margin:80px auto;
+}
+
+.top{
+  height: 100px;
+  width: 100%;
+}
+
+.header-area{
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid #EEEEEE;
+  border-bottom: none;
+}
+
+.input-area{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #EEEEEE;
+
+}
+
+.input-wrapper{
+  padding: 5px;
+  display: flex;
+}
+
+.input-wrapper input{
+  height: 32px;
+  width: 180px;
+  border: 1px solid #EEEEEE;
+  font-size: 17px;
+  color:#000;
+  padding-left: 10px;
+  outline: none;
+}
+
+.input-wrapper button{
+  height: 34px;
+  background-color:#b8b5b5;
+  border: 1px solid #EEEEEE;
+  outline: none;
+  width: 80px;
+}
+
+.bottom{
+  margin-top: 5px;
+  height: 500px;
+  border: 1px solid #EEEEEE;
+}
+
+.column-wrapper{
+width: 100%;
+}
+
+.column1{
+  width: 52%;
+  background: #EEEEEE;
+  padding: 5px;
+  box-shadow: 0px 0px 2px grey;
+  font-weight: bold;
+}
+
+.column2{
+  width: 20%;
+  background:#eeeeee;
+  padding: 5px;
+  box-shadow: 0px 0px 2px grey;
+  font-weight: bold;
+}
+
+.column3{
+  width: 35%;
+  background:#EEEEEE;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 2px grey;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.title{
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+tr{
+  height: 30px;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+
+select{
+  width: 80px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius:5px ;
+}
+
+
+option{
+  background: white;
+  color: #000;
+}
+
+.btn-wrapper{
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn-area{
+  padding:10px 50px;
+}
+
+span{
+  margin-right: 10px;
+}
+
+button{
+  margin: 0px 2px;
+  padding:7px 15px;
+  border-radius:5px ;
+  border:1px solid grey;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  width:max-content;
+}
+
+.all{
+  background: rgb(124, 174, 218);
+
+}
+
+.active{
+background-color: gold;
+}
+
+.completed{
+background:#90ee90;
+}
